@@ -14,11 +14,11 @@ be installed first.
 from Gohlke.  
 Make sure you choose the wheel file that matches your architecture (32/64-bit) 
 and Python version.
-2. create a new virtual environment
+2. using the command prompt, create a new virtual environment
     - `python3 -m venv my_venv_name`
 3. to activate the virtual environment on Windows, activate script is in the Scripts folder:
     - `\path\to\env\Scripts\activate`
-4. In the command prompt change directories to the folder where you
+4. Once the virtual environment is active, change directories to the folder where you
 downloaded the wheel file specified in the first step.
 5. pip install the Twisted wheel file you downloaded. Example:
     - `pip install Twisted-18.9.0-cp36-cp36m-win32.whl`

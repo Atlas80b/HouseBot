@@ -10,12 +10,12 @@ class ImmobiliareSpider(scrapy.Spider):
     #'Next Page' button mapping
     NEXT_PAGE = '//ul[contains(@class, \'pull-right\') and contains(@class ,\'pagination\')]//li[1]//a/@href'
 
-    # Mpping basic AD item informations
+    # Mapping basic AD item informations
     ADS_ITEMS = '//div//ul[@class="annunci-list"]//li//div[@class="listing-item_body"]'
     ADS_ITEM_TITLE = './/p/a//@title'
     ADS_ITEM_URL = './/p/a//@href'
 
-    # MApping the description corresponding to a specific AD
+    # Mapping the description corresponding to a specific AD
     ADS_DESCRIPTION = '//div[contains(@class ,"text-compressed")]//div/text()'
 
     PAGE_COUNT = 1

@@ -1,5 +1,8 @@
 # config files
 .idea
 
+# compiled files
+__pycache__
+
 #local virtual environment
 scraper-venv
